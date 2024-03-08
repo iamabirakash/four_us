@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(90deg, rgb(144, 168, 239) 40%, #00ffd0 85%); */
+    /* color: white; */
+    /* background-image: url('photos/water_pollution.jfif'); */
+}
+.container {
+    margin-inline: auto;
+    background-color: #31569f;
+    height : 60px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.navs {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    margin: 0 60px 0 60px;
+    justify-content: space-evenly;
+}
+.navs a {
+    color : black;
+    text-decoration: none;
+}
+.navs {
+    display: flex;
+    align-items: center;
+}
+
+.border a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border a:hover {
+    color: blue;
+/* background-color: red; */
+}
+
+.border a:focus {
+    width: 200px;
+/* background-color: red; */
+}
+.search-box {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.search-box:focus{
+    width:300px;
+}
+.search{
+    border: none;
+    background: #31569f;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    padding: 0 20px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    /* padding-left: 430px; */
+    margin-left: auto;
+}
+.join {
+    margin-right: 25px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* INCREDIBLE INDIA */
+.iindia{
+    align-items: center;
+    margin-top: 20px;
+}
+.iindiaimg {
+    align-items: center;
+    justify-content: center;
+}
+.iindiaimg img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* align-items: center; */
+    justify-content: center;
+}
+#click {
+    margin-top: 35px;
+}
+#click img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* WHERE TO */
+.where {
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+/* .tab-titles {
+    margin-top: 30px;
+    display: flex;
+}
+.tab-links {
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(186, 186, 241);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 1.5s;
+}
+
+.active-link::after {
+    width: 50%;
+}
+.tab-contents {
+    list-style: none;
+    margin-top: 20px;
+    display: none;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.row p {
+    text-align: center;
+}
+
+.tab-contents ul li span{
+    font-size: 14px;
+    color: white;
+}
+
+.active {
+    display: block;
+} */
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.tm-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.tm-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.tm-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    
+    
+}
+.tm-nav div ul li a:hover{
+    
+    color: #ec3c6a;
+}
